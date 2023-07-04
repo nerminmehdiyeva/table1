@@ -1,0 +1,44 @@
+body{
+    padding: 90px;
+    width: 75%;
+    font-family: "Google Sans",Roboto,arial,sans-serif;
+}
+.users-table
+{
+    width: 75%;
+    height: 100px auto;
+    border: 1px solid;
+    border: 1px solid rgb(218,220,224) ;
+    border-collapse:collapse;
+    color: #4d4e51; 
+}
+th,td{
+    border-bottom: 1px solid rgb(218,220,224);
+    font-size: 17.8px;
+}
+tbody tr td
+{
+   text-align: left;
+    padding: 18px;
+}
+tbody tr:nth-child(odd)
+{
+    background-color:rgb(241,243,244);
+}
+thead
+{
+    background-color:rgb(32,33,36);
+    color:rgb(232,234,237) ;
+    height: 60px;
+    text-align: left;
+}
+
+tbody tr:hover
+{
+    cursor: pointer;
+background-color:rgb(218,220,224);
+}
+thead th
+{
+    padding: 18px;
+}
